@@ -1,0 +1,3260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /* сброс стилей */
+
+h1 {
+    margin-top: 32px;
+    text-align: center;
+} /* Основной заголовок */
+
+.page-article {
+    width: 1260px;
+    margin: 0 auto;
+} /* Секция контейнер */
+
+.svg_icon {
+    width: 20px;
+    height: 20px;
+    fill: none;
+} /* svg иконки */
+
+/* Page 1 */
+
+.page-1-h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 38px;
+    margin: 0 10px;
+} /* Заголовок */
+
+.page-1-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 0 53px;
+} /* Контейнер с карточками */
+
+.page-1-figure {
+    display: flex;
+    margin: 10px;
+    position: relative;
+    width: 295px;
+    height: 295px;
+    border-radius: 10px;
+} /* Карточка */
+
+.page-1-figcaption {
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
+    background: rgba(239, 47, 162, 0.44);
+    backdrop-filter: blur(2px);
+    display: flex;
+    width: 295px;
+    height: 62px;
+    padding: 8px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+} /* Контейнер описание */
+
+.page-1-h3 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.9%; /* 26.78px */
+} /* Заголовок карточки */
+
+.page-1-p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.9%; /* 18.746px */
+} /* Описание карточки */
+
+/* Page 2 */
+
+.page-2-h2 {
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.9%; /* 42.848px */
+    padding-top: 23px;
+    margin: 0 10px;
+} /* Заголовок */
+
+.page-2-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 0 54px;
+} /* Контейнер с карточками */
+
+.page-2-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 16px;
+    width: 295px;
+    height: 252px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 6px 33px 7px rgba(48, 14, 34, 0.11);
+} /* Карточка */
+
+.page-2-img-card {
+    display: flex;
+    align-items: center;
+} /* Контейнер с фото именем и фамилией героя */
+
+.page-2-h3 {
+    margin: 17px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 22.304px */
+} /* Имя и фамилия героя */
+
+.page-2-img {
+    display: flex;
+    width: 74px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 74px;
+    border: 2px solid #EF2FA2;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+} /* Фото */
+
+.page-2-img-box {
+    position: relative;
+} /* Контейнер с фото и стикерами */
+
+.page-2-pro {
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 8px */
+    display: inline-flex;
+    padding: 2px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #EF2F52;
+} /* Нижний стикер */
+
+.page-2-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 8px */
+    display: inline-flex;
+    padding: 2px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #BD2FEF;
+} /* Верхний стикер */
+
+.page-2-text {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.4%; /* 18.122px */
+} /* Описание */
+
+.page-2-price {
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 19.516px */
+} /* Цена */
+
+.page-2-time {
+    color: #B4B4B4;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.4%; /* 13.94px */
+} /* Время работы */
+
+.page-2-button {
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #EF2FA2;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    text-decoration: none;
+} /* Кнопка */
+
+.page-2-feedback {
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 16.728px */
+} /* Отзывы */
+
+.page-2-bf {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+} /* Контейнер кнопка и отзывы */
+
+/* Page 3 */
+
+.page-3-h2 {
+    padding: 34px 10px 0;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.9%; /* 42.848px */
+} /* Заголовок */
+
+.page-3-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 0 58px;
+} /* Контейнер с карточками */
+
+.page-3-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    width: 295px;
+    height: 346px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 6px 33px 7px rgba(48, 14, 34, 0.11);
+} /* Карточка */
+
+.page-3-img {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 10px 10px 0 0;
+} /* Картинка */
+
+.page-3-content-card {
+    padding: 8px 16px 16px;
+} /* Контент карточки */
+
+.page-3-h3 {
+    margin-bottom: 8px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 22.304px */
+} /* Заголовок карточки */
+
+.page-3-text {
+    padding-left: 8px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.4%; /* 19.516px */
+} /* Карточка контент */
+
+.page-3-content-box {
+    display: flex;
+    align-items: center;
+} /* Карточка контент ряд */
+
+.page-3-box-width {
+    display: flex;
+    align-items: center;
+    width: 50%;
+} /* Карточка контент столбик */ 
+
+.page-3-price {
+    padding: 16px 0 8px;
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 19.516px */
+} /* Стоимость */
+
+.page-3-box-width:nth-child(2) {
+    padding-top: 8px;
+}
+
+/* Page 4 */
+
+.page-4-h2 {
+    padding: 39px 10px 0;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.9%; /* 42.848px */
+} /* Заголовок */
+
+.page-4-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 0 71px;
+} /* Контейнер с карточками */
+
+.page-4-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    width: 295px;
+    height: 380px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 6px 33px 7px rgba(48, 14, 34, 0.11);
+} /* Карточка */
+
+.page-4-img-box {
+    position: relative;
+    width: 295px;
+    height: 190px;
+} /* Контейнер картинки */
+
+.page-4-img {
+    background: url(<path-to-image>), lightgray 0px -13.899px / 100% 107.5% no-repeat;
+    border-radius: 10px 10px 0 0;
+} /* Картинка */
+
+.page-4-pro {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: inline-flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 5px 5px 0px;
+    background: #EF2F52;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 12px */
+} /* Нижний стикер */
+
+.page-4-top {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    display: inline-flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 5px 5px 0px;
+    background: #BD2FEF;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 12px */
+} /* Верхний стикер */
+
+.page-4-content-card {
+    padding: 8px 16px 16px;
+} /* Контент карточки */
+
+.page-4-h3 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 142.4%; /* 22.784px */
+} /* Заголовок карточки */
+
+.page-4-text {
+    padding-top: 4px;
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 142.4%; /* 19.936px */
+} /* Контент */
+
+.page-4-price {
+    padding: 16px 0 8px;
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 19.516px */
+} /* Стоимость */
+
+/* Page 5 */
+
+.page-5-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} /* Контент */
+
+.page-5-heading {
+    margin: 109px 0 48px;
+    color: #EF2FA2;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.9%; /* 42.848px */
+} /* Заголовок */
+
+.page-5-cards {
+    display: flex;
+} /* Контейнер с карточками */
+
+.page-5-card {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 0;
+    width: 387px;
+    height: 395px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 6px 33px 7px rgba(48, 14, 34, 0.11);
+} /* Карточка */
+
+.page-5-item-title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.9%; /* 32.136px */
+} /* Название тарифа */
+
+.page-5-item {
+    padding-left: 12px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.9%; /* 18.746px */
+} /* Описание тарифа */
+
+.page-5-box-item {
+    padding: 12px 19px 12px 32px;
+} /* Оболочка описания тарифа */
+
+.page-5-box-price-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} /* Контейнер с ценой и кнопкой */
+
+.page-5-price {
+    margin-bottom: 16px;
+    color: #EF2FA2;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} /* Цена */
+
+.page-5-button {
+    text-decoration: none;
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #EF2FA2;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} /* Кнопка */
+
+.page-5-link-services {
+    margin: 24px 0 103px;
+    display: flex;
+    width: 1239px;
+    padding: 12px 0px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #EDF8FF;
+    color: #EF2FA2;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+} /* Ссылка на все услуги */
+
+.svg_icon-li {
+    width: 10px;
+    height: 10px;
+    fill: #EF2FA2;
+} /* svg иконки */
+
+/* Page 6 */
+
+.scroll {
+    min-width: 1260px;
+    width: 100%;
+} /* Скролл */
+
+.page-6-heading {
+    color: #EF2FA2;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.9%; /* 42.848px */
+} /* Заголовок */
+
+.page-6-cards {
+    padding: 0 0 0 238px;
+    display: flex;
+    overflow-x: scroll;
+} /* Контейнер с карточками */
+
+.page-6-card {
+    margin: 61px 10px 32px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0;
+    width: 600px;
+    height: 408px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 6px 33px 7px rgba(48, 14, 34, 0.11);
+} /* Карточка */
+
+.page-6-content {
+    padding: 0 24px;
+} /* Контент */
+
+.page-6-carousel {
+    text-align: center;
+} /* Маркеры карусель */
+
+.page-6-date {
+    color: #1F171C;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 147.187%; /* 19.134px */
+} /* Дата */
+
+.page-6-item-title {
+    margin: 16px 0;
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.9%; /* 42.848px */
+} /* Название */
+
+.page-6-text {
+    margin-bottom: 16px;
+    color: #1F171C;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 147.187%; /* 19.134px */
+} /* Контент карточки */
+
+.page-6-images {
+    display: flex;
+    margin-left: 20px;
+} /* Фото контейнер */
+
+div.page-6-images > img {
+    margin: 0 4px;
+    width: 236px;
+    height: 155px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+} /* Фото */
+
+div.page-6-images > img:last-child {
+    width: 88px;
+    border-radius: 10px 0 0 10px;
+} /* Последнее фото */
+
+/* Page 7 */
+
+.page-7-card {
+    padding: 16px 30px 8px 16px;
+    width: 925px;
+    height: 292px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 6px 33px 7px rgba(48, 14, 34, 0.11);
+} /* Карточка */
+
+.page-7-card-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+} /* Заголовок карточки */
+
+.page-7-box-logo-header {
+    display: flex;
+    align-items: center;
+} /* Контейнер для картинки и названия */
+
+.page-7-box-logo {
+    position: relative;
+    width: 74px;
+    flex-shrink: 0;
+    margin-right: 16px;
+} /* Контейнер лого */
+
+.page-7-box-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 8px */
+    display: inline-flex;
+    padding: 2px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #BD2FEF;
+} /* Стикер TOP */
+
+.page-7-logo {
+    border-radius: 74px;
+    border: 2px solid #EF2FA2;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+} /* Лого */
+
+.page-7-header {
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 22.304px */
+} /* Название */
+
+.page-7-feedback {
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 16.728px */
+} /* Отзыв */
+
+.page-7-price {
+    padding-bottom: 8px;
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 19.516px */
+} /* Цена */
+
+.page-7-link {
+    text-decoration: none;
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #EF2FA2;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} /* Ссылка "Подробнее" */
+
+.page-7-box-price-link {
+    padding-right: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+} /* Контейнер с кнопкой и ценой */
+
+.page-7-box-description {
+    display: flex;
+} /* Контейнер с описанием */
+
+.page-7-box-object {
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 19.516px */
+    padding-bottom: 12px;
+} /* Название объекта */
+
+.page-7-box-text {
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.4%; /* 19.516px */
+} /* Описание */
+
+.page-7-price-description {
+    padding: 2px 0 8px;
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 19.516px */
+} /* Цена услуг */
+
+.page7 {
+    width: 2px;
+    height: 174px;
+    flex-shrink: 0;
+    stroke-width: 0.5px;
+    stroke: #C0C0C0;
+} /* svg */
+
+.page-7-images {
+    width: 125px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #D9D9D9;
+    margin: 0 7px;
+} /* Фото */
+
+.page-7-box-images {
+    display: flex;
+} /* Контейнер с картинками */
+
+.page-7-box-services {
+    padding-right: 40px;
+} /* Контейнер услуги */
+
+.page-7-box-foto {
+    padding-left: 12px;
+} /* Контейнер фото */
+
+/* Page 8 */
+
+.black {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    min-width: 1260px;
+    background-color: #1E1E1E;;
+    width: 100%;
+} /* Секция */
+
+.page-8-card {
+    padding: 16px 9px 16px 16px;
+    width: 925px;
+    height: 320px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 6px 33px 7px rgba(48, 14, 34, 0.11);
+} /* Карточка */
+
+.page-8-card-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+} /* Заголовок карточки */
+
+.page-8-box-logo-header {
+    display: flex;
+    align-items: center;
+} /* Контейнер для картинки и названия */
+
+.page-8-box-logo {
+    position: relative;
+    width: 74px;
+    flex-shrink: 0;
+    margin-right: 16px;
+} /* Контейнер лого */
+
+.page-8-box-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-flex;
+    padding: 2px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #BD2FEF;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 8px */
+} /* Стикер TOP */
+
+.page-8-logo {
+    border-radius: 74px;
+    border: 2px solid #EF2FA2;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+} /* Лого */
+
+.page-8-header {
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 22.304px */
+} /* Название */
+
+.page-8-feedback {
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 16.728px */
+} /* Отзыв */
+
+.page-8-price {
+    padding-bottom: 8px;
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 19.516px */
+} /* Цена */
+
+.page-8-link {
+    text-decoration: none;
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #EF2FA2;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} /* Ссылка "Подробнее" */
+
+.page-8-box-price-link {
+    padding-right: 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+} /* Контейнер с кнопкой и ценой */
+
+.page-8-images {
+    width: 138px;
+    height: 138px;
+    border-radius: 10px;
+    margin: 0 9px 0 3px;
+} /* Фото */
+
+.page-8-box-images {
+    display: flex;
+} /* Контейнер с картинками */
+
+.page-8-description {
+    padding-bottom: 4px;
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.4%; /* 19.516px */
+} /* Описание услуги */
+
+.page-8-price-description {
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 19.516px */
+} /* Цена услуги */
+
+.page-8-box-price-description {
+    display: flex;
+} /* Контейнер с услугами */
+
+.page-8-box-description {
+    padding: 16px 53px 0 3px;
+} /* Контейнер с одной услуги */
+
+/* Page 9 */
+
+.page-9-cards {
+    display: flex;
+    padding: 22px 0 10px;
+} /* Контейнер с карточками */
+
+.page-9-card {
+    margin: 10px;
+    padding: 16px 0;
+    width: 610px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 6px 33px 7px rgba(48, 14, 34, 0.11);
+} /* Карточка */
+
+.page-9-logo {
+    margin-left: 16px;
+    width: 74px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 74px;
+    border: 2px solid #EF2FA2;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+} /* Логотип */
+
+.page-9-card-header-box {
+    display: flex;
+    justify-content: space-between;
+} /* Шапка карточки */
+
+.page-9-card-header-images-box {
+    display: flex;
+} /* Контейнер лого и название */
+
+.page-9-card-header-address {
+    margin-left: 14px;
+} /* Контейнер название и адрес */
+
+.page-9-card-header {
+    width: 396px;
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 22.304px */
+    margin: 2px;
+} /* Название */
+
+.page-9-box-svg-address {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+} /* Ряд с svg и адрес */
+
+.page9 {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    fill: none;
+} /* svg */
+
+.page-9-card-address {
+    padding-left: 3px;
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145.187%; /* 17.422px */
+} /*Адрес */
+
+.page-9-feedback {
+    margin-right: 16px;
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 16.728px */
+    padding: 2px 0;
+} /* Отзыв */
+
+.page-9-images {
+    display: flex;
+    padding: 16px 0 16px 9px;
+    overflow: hidden;
+} /* Контейнер с картинками */
+
+.page-9-image {
+    margin: 0 10px;
+    width: 138px;
+    height: 138px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+} /* Фото */
+
+.page-9-schedule-boxs {
+    display: flex;
+    padding: 0 9px;
+} /* Контейнер с расписанием */
+
+.page-9-schedule-box {
+    margin: 0 10px;
+} /* Контейнеры с расписаниями */
+
+.page-9-name {
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.4%; /* 19.516px */
+} /* Расписание заголовок */
+
+.page-9-text {
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 19.516px */
+    padding-top: 4px;
+} /* Расписание текст */
+
+/* Page 10 */
+
+.page-10-cards {
+    display: flex;
+    padding: 22px 0 10px;
+} /* Контейнер с карточками */
+
+.page-10-card {
+    margin: 10px;
+    padding: 16px 0;
+    width: 610px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 6px 33px 7px rgba(48, 14, 34, 0.11);
+} /* Карточка */
+
+.page-10-card-header-box {
+    display: flex;
+    justify-content: space-between;
+} /* Шапка карточки */
+
+.page-10-card-header-images-box {
+    display: flex;
+} /* Контейнер лого и название */
+
+.page-10-images-box {
+    position: relative;
+} /* Контейнер с лого */
+
+.page-10-logo {
+    margin-left: 16px;
+    width: 74px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 74px;
+    border: 2px solid #EF2FA2;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+} /* Логотип */
+
+.page-10-top {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    display: inline-flex;
+    padding: 2px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #BD2FEF;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 8px */
+} /* Стикер */
+
+.page-10-card-header-address {
+    margin-left: 14px;
+} /* Контейнер название и адрес */
+
+.page-10-card-header {
+    width: 396px;
+    padding-top: 12px;
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 22.304px */
+    margin: 2px;
+} /* Название */
+
+.page-10-box-svg-address {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+} /* Ряд с svg и адрес */
+
+.page-10-card-address {
+    padding-left: 3px;
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145.187%; /* 17.422px */
+} /*Адрес */
+
+.page-10-feedback {
+    margin-right: 16px;
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 16.728px */
+    padding-top: 14px;
+} /* Отзыв */
+
+.page-10-images {
+    display: flex;
+    padding: 16px 0 16px 9px;
+    overflow: hidden;
+} /* Контейнер с картинками */
+
+.page-10-image {
+    margin: 0 10px;
+    width: 138px;
+    height: 138px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+} /* Фото */
+
+.page-10-footer-card-boxs {
+    display: flex;
+    padding: 0 9px;
+} /* Контейнер подвала карты */
+
+.page-10-footer-card-box {
+    margin: 0 10px;
+} /* Контейнер с сайтом */
+
+.page-10-name {
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 139.4%; /* 19.516px */
+} /* Сайт заголовок */
+
+.page-10-text {
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.4%; /* 19.516px */
+    text-decoration: none;
+    padding-top: 4px;
+} /* Сайт текст */
+
+/* Page 11 */
+
+.page-11-cards {
+    margin: 35px 0 20px;
+    display: flex;
+} /* Контейнер с карточками */
+
+.page-11-card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    width: 295px;
+    height: 268px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 6px 33px 7px rgba(48, 14, 34, 0.11);
+} /* Карточка */
+                  
+.page-11-image {
+    width: 215px;
+    height: 215px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    position: absolute;
+    top: 0;
+} /* Фото */
+     
+.page-11-name {
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.9%; /* 21.424px */
+    position: absolute;
+    top: 181px;
+} /* Название */
+
+.page-11-text {
+    position: absolute;
+    top: 206px;
+    width: 231px;
+    color: #1F171C;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.9%; /* 18.746px */
+} /* Описание */
+
+/* Page 12 */
+
+.page-12-box{
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    margin: 35px auto 34px;
+} /* Контент */
+
+.page-12-header {
+    margin-left: 20px;
+    color: #1F171C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 16px;
+} /* Заголовок */
+
+.page-12-cards {
+    display: flex;
+    flex-wrap: wrap;
+} /* Карточки */
+
+.page-12-card {
+    margin: 0 20px 10px 20px;
+} /* Карточка */
+
+.page-12-image {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, url(<path-to-image>), lightgray 50% / cover no-repeat, #FFF;
+} /* Фото */
+
+.page-12-text {
+    margin-top: 5px;
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.9%; /* 18.746px */
+} /* Подпись */
+
+.page-12-link {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 20px 10px 20px;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #ECF5FF;
+} /* Ссылка */
+
+.page-12-link-text {
+    position: absolute;
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.9%; /* 18.746px */
+    top: 91px;
+} /* Текст ссылки */
+
+/* Page 13 */
+
+.page-13-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 10px 90px;
+} /* Контейнер карточки */
+
+.page-13-name {
+    padding-top: 98px;
+    width: 625px;
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.9%; /* 42.848px */
+} /* Имя карточки */
+
+.page-13-text {
+    padding-top: 9px;
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.9%; /* 18.746px */
+} /* Описание карточки */
+
+.page-13-text-box {
+    padding: 23px 0 24px;
+    width: 707px;
+} /* Контейнер с описанием карточки */
+
+.page-13-box-advertisement {
+    display: flex;
+    padding: 20px 24px;
+    width: 707px;
+    height: 106px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #EF2FA2;
+} /* Блок с рекламой */
+
+.page-13-name-advertisement {
+    color: #EF2FA2;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.9%; /* 42.848px */
+} /* Заголовок рекламы */
+
+.page-13-text-advertisement {
+    padding-top: 4px;
+    color: #1F171C;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133.9%; /* 18.746px */
+} /* Текст рекламы */
+
+.page-13-box-advertisement-name-text:nth-child(2) {
+    padding: 0 86px;
+} /* Контейнер с одним блоком рекламы */
+
+.page-13-box-images {
+    position: relative;
+    width: 491px;
+    display: flex;
+} /* Контейнер с фото */
+
+.page-13-image:first-child:hover {
+    content: url('images/imgPage13-3.png');
+} /* Первое фото при наведении */
+
+.page-13-image:last-child {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    width: 238px;
+    height: 346px;
+    flex-shrink: 0;
+    border-radius: 10px;
+} /* Вторая фотография */
+
+.page-13-image:first-child {
+    background-image: url('images/imgPage13-2.png');
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 262px;
+    height: 405px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+} /* Первая фотография */
+
+/* Page 14 */
+
+.page-14-header {
+    padding: 42px 10px 22px;
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 134.4%; /* 43.008px */
+} /* Заголовок */
+
+.page-14-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 66px;
+} /* Контейнер карточек */
+
+.page-14-card {
+
+    margin: 10px;
+    display: inline-flex;
+    padding: 16px 48px 15px 48px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 28px 1px rgba(90, 90, 90, 0.25);
+} /* Карточка */
+
+.page-14-images {
+    width: 68px;
+} /* Картинка */
+
+.page-14-title {
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 134.4%; /* 21.504px */
+} /* Название */
+
+.page-14-price {
+    color: #949494;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%; /* 21.504px */
+} /* Цена */
+
+/* Page 15 */
+
+.page-15-header {
+    padding: 40px 10px 0;
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 134.4%; /* 43.008px */
+} /* Заголовок */
+
+.page-15-cards {
+    padding: 22px 0 10px;
+    display: flex;
+} /* Контейнер с карточками */
+
+.page-15-card {
+    padding: 8px;
+    margin: 10px;
+    width: 295px;
+    height: 323px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 28px 1px rgba(90, 90, 90, 0.25);
+} /* Карточка */
+
+.page-15-box-image {
+    position: relative;
+    height: 143px;
+} /* Контейнер с картинкой */
+
+.page-15-image {
+    width: 279px;
+    border-radius: 10px;
+} /* Картинка */
+
+.page-15-sticker {
+    position: absolute;
+    left: 0;
+    top: 17px;
+    display: inline-flex;
+    padding: 3px 8px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 0px 8px 8px 0px;
+    opacity: 0.75;
+    background: #3D84EE;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 134.4%; /* 13.44px */
+} /* Стикер */
+
+.page15-1 {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill: none;
+} /* Сердце */
+
+.page-15-image-header-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-flex;
+    width: 279px;
+    height: 19px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 0px 0px 10px 10px;
+    opacity: 0.75;
+    background: #3D84EE;
+} /* контейнер с пробегом и годом выпуска */
+
+.page-15-distance {
+    margin: 0 8px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 134.4%; /* 13.44px */
+} /* Пробег */
+
+.page-15-years {
+    margin: 0 8px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 134.4%; /* 13.44px */
+} /*Год выпуска */
+
+.page15-2 {
+    width: 3px;
+    height: 3px;
+    fill: #FFF;
+} /* svg */
+
+.page-15-header-card {
+    padding: 8px 0 14px;
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 134.4%; /* 18.816px */
+} /* Название карточки */
+
+.page-15-price {
+    color: #3D84EE;
+    padding-right: 5px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 134.4%; /* 21.504px */
+} /* Цена */
+
+.page-15-credit {
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%; /* 16.128px */
+} /* Рассрочка */
+
+.page-15-prices {
+    flex-shrink: 0;
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%; /* 16.128px */
+} /* Разные цены */
+
+.page-15-text {
+    flex-shrink: 0;
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%; /* 16.128px */
+} /* Текст предложения */
+
+.page-15-text-blue {
+    color: #3D84EE;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+} /* Текст предложения голубым*/
+
+.page-15-row {
+    display: flex;
+    align-items: baseline;
+} /* Ряд предложения */
+
+.page-15-col {
+    height: 92px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} /*контейнер с предложениями */
+
+/* Page 16 */
+
+.page-16-link {
+    margin: 8px;
+    text-decoration: none;
+    display: inline-flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #2B2B2B;
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} /* Ссылка */
+
+.page-16-link:first-child {
+    border: none;
+    background: #3D84EE;
+    color: #FFF;
+    font-weight: 600;
+} /* Активная ссылка */
+
+/* Page 17 */
+
+.page-17-box img {
+    padding: 10px;
+    border-radius: 10px;
+} /* Картинка */
+
+div.page-17-row_1-3 img {
+    width: 50%;
+} /* Первый и третий ряд */
+
+div.page-17-row_2 img {
+    width: 33.33%;
+} /* Второй ряд */
+
+div.page-17-row_4 img {
+    width: 25%;
+} /* Четвертый ряд */
+
+.page-17-row_1-3, .page-17-row_2, .page-17-row_4 {
+    display: flex;
+    width: 100%;
+} /* Ряд галереи */
+
+.page-17-box {
+    padding: 22px 0 28px;
+} /* Контейнер галереи */
+
+/* Page 18 */
+
+.page-18-box {
+    padding: 32px 0 42px;
+    display: flex;
+} /*Секция */
+
+.page-18-text {
+    margin: 0 16px 0 76px;
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 134.4%; /* 21.504px */
+} /* Контент */
+
+.page-18-estimation {
+    display: inline-flex;
+    padding: 6px 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: #3D84EE;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} /* Оценка */
+
+/* Page 19 */
+
+.page-19-box {
+    padding: 38px 340px 43px;
+    display: flex;
+} /* Секция */
+
+.page-19-header {
+    padding-bottom: 20px;
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 134.4%; /* 32.256px */
+} /* Заголовок */
+
+.page-19-object {
+    padding: 0 5px 0 0;
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 134.4%; /* 18.816px */
+    flex-shrink: 0;
+} /* Объект */
+
+.page-19-estimation {
+    margin-left: 13px;
+    padding: 6px 8px;
+    border-radius: 5px;
+    background: #3D84EE;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    flex-shrink: 0;
+} /* Оценка */
+
+.line-solid {
+    width: 100%;
+    border-bottom: 1px solid;
+    flex-shrink: 2;
+} /* Подчеркивание */
+
+.page19_y1 {
+    width: 2px;
+    height: 305px;
+    flex-shrink: 0;
+    stroke-width: 0.5px;
+    stroke: #CDCDCD;
+} /* Вертикальное подчеркивание */
+
+.page-19-card {
+    width: 808px;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 32px 12px 0;
+} /* Контейнер ряда */ 
+    
+/* Page 20 */
+
+.page-20-box {
+    width: 618px;
+    margin: 10px 6px;
+    padding: 51px 0 57px;
+    display: flex;
+    flex-direction: column;
+} /* Контейнер */
+
+.page-20-hero-image {
+    margin: 0 4px;
+    width: 610px;
+    height: 336px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(<path-to-image>), lightgray 0px -3.062px / 100% 102.121% no-repeat;
+} /* Главное фото */
+
+.page-20-image {
+    margin: 4px;
+    width: 109px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(<path-to-image>), lightgray 0px -0.538px / 100% 102.121% no-repeat;
+} /* Фото */
+
+.page-20-images-box {
+    display: flex;
+    overflow: hidden;
+    width: 614px;
+} /* Блок с фото */
+
+.page-20-hero-box {
+    position: relative;
+} /* Блок главного фото */
+
+.page20-svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill: none;
+} /* svg */
+
+.page-20-svg-box-left {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    opacity: 0.75;
+    background: #3D84EE;
+    top: 146px;
+    left: 4px;
+} /* svg-left */
+
+.page-20-svg-box-right {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    opacity: 0.75;
+    background: #3D84EE;
+    top: 146px;
+    right: 4px;
+} /* svg-right */
+
+/* Page 21 */
+
+.page21-svg {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    margin-right: 10px;
+} /* svg иконки */
+
+.page21-svg-color {
+    margin: 0 10px;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+} /* svg иконки цвета*/
+
+.page-21-box-header {
+    display: flex;
+    justify-content: space-between;
+} /* Блок заголовка карточки */
+
+.page-21-box {
+    margin: 44px 10px 47px;
+    width: 610px;
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+} /* Контейнер */
+
+.page-21-left {
+    display: flex;
+    justify-content: flex-end;
+} /* Сдвиг в лево в секции */
+
+.page-21-box-header-description {
+    display: flex;
+} /* Блок с описанием в шапке карточки */
+
+.page-21-description-name {
+    color: #797979;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} /* Название блока в шапке */
+
+.page-21-description-text {
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} /* Текст блока в шапке */
+
+.page-21-box-color {
+    display: flex;
+    padding-top: 34px;
+} /* Контейнер с цветами */
+
+.page-21-name-color {
+    margin-right: 10px;
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} /* Название цвета */
+
+.page-21-box-option {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+} /* Блок опций */
+
+.page-21-text-option {
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 8px;
+} /* Предложение */
+
+.page-21-price-option {
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} /* Цена */
+
+.page-21-credit {
+    text-decoration: none;
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #3D84EE;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} /* Кредит */
+
+.page-21-calculator {
+    text-decoration: none;
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #3D84EE;
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} /* Калькулятор */
+
+.page-21-box-price {
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+} /* Блок предложений */
+
+.page-21-text {
+    flex-shrink: 0;
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%; /* 18.816px */
+} /* текст предложений */
+
+.page-21-text-blue {
+    flex-shrink: 0;
+    color: #3D84EE;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+} /* текст предложений голубой */
+
+.page-21-prices {
+    flex-shrink: 0;
+    color: #2B2B2B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 134.4%; /* 18.816px */
+} /* Цена предложений */
+
+/* Page 22 */
+
+.page-22-box {
+    display: flex;
+    padding: 30px 53px;
+} /* Контейнер */
+
+.page-22-box-card {
+    width: 295px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+} /* Карточка */
+
+.page-22-image {
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+} /* Иконка */
+
+.page-22-name {
+    margin-bottom: 16px;
+    color: #202020;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 118.5%; /* 23.7px */
+} /* Заголовок карточки */
+
+.page-22-text {
+    color: #464646;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145%; /* 26.1px */
+} /* Текст карточки */
+
+/* Page 23 */
+
+.page-23-box {
+    padding: 47px 10px 39px;
+    display: flex;
+    flex-direction: column;
+} /* Контейнер */
+
+.page-23-item {
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.5%; /* 28.44px */
+} /* Заголовок */
+
+.page-23-cards {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+} /* Контейнер с карточками */
+
+.page-23-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 310px;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 5px 0px 0px 0px;
+    border: 0.5px solid #CDCDCD;
+} /* Карточка */
+
+.page-23-image {
+    width: 268px;
+} /* Фото */
+
+.page-23-card:nth-child(4n+2) .page-23-image {
+    margin-bottom: 20px;
+} /* 2 и 6 карточки нижний отступ фото */
+
+.page-23-card:nth-child(4n+3) .page-23-image, .page-23-card:nth-child(4n+4) .page-23-image {
+    margin-bottom: 12px;
+} /* 3,4,7,8 карточки нижний отступ фото */
+
+.page-23-name {
+    color: #08006A;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.5%; /* 21.33px */
+    margin-bottom: 12px;
+} /* Заголовок карточки */
+
+.page-23-text {
+    color: #464646;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 118.5%; /* 21.33px */
+    margin-bottom: 24px;
+} /* Текст карточки */
+
+/* Page 24 */
+
+.page-24-cards {
+    padding: 31px 10px 59px;
+    display: flex;
+    flex-direction: column;
+} /* Контейнер с контентом */
+
+.page-24-header {
+    padding-bottom: 40px;
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.5%; /* 28.44px */
+} /* Заголовок */
+
+.page-24-card {
+    display: flex;
+    flex-wrap: wrap;
+} /*Карточки */
+
+.page-24-box-image {
+    height: 310px;
+    display: flex;
+    width: 25%;
+    position: relative;
+} /* Ссылка */
+
+.page-24-country {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.5%; /* 23.7px */
+} /* Страна */
+
+.page-24-count {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    top: 218px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.5%; /* 23.7px */
+} /* Количество машин */
+
+.page-24-car {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 40px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 118.5%; /* 23.7px */
+} /* машины */
+
+.page-24-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+} /* Картинка */
+
+/* Page 25 */
+
+.page-25-box {
+    padding: 41px 0 43px;
+    display: flex;
+    flex-direction: column;
+} /* Контейнер */
+
+.page-25-header {
+    margin-left: 10px;
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.5%; /* 28.44px */
+    margin-bottom: 30px;
+} /* Заголовок секции */
+
+.page-25-cards {
+    display: flex;
+    flex-wrap: wrap;
+} /* Контейнер с карточками */
+
+.page-25-card {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 295px;
+    height: 318px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 3px 4px 9px 4px rgba(147, 147, 147, 0.25);
+} /* Карточка */
+
+.page-25-image-box {
+    position: relative;
+    margin: 0 auto;
+    width: 277px;
+    height: 175px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 0px -5.332px / 100.339% 106.093% no-repeat;
+} /* контейнер фото */
+
+.page-feedback-boxs {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 12px;
+    left: 3px;
+} /* Боксы отзывов */
+
+.page-feedback-box {
+    display: flex;
+    width: 50px;
+    height: 28px;
+    padding: 4px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 1px 12px -2px rgba(86, 86, 86, 0.25);
+} /* Бокс отзыв */
+
+.page25 {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    fill: #FFF500;
+} /* svg */
+
+.page-feedback-text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145.187%; /* 20.326px */
+} /* Описание отзыва */
+
+.page-feedback-estimation {
+    margin-left: 8px;
+    color: #08006A;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145.187%; /* 14.519px */
+} /* Оценка */
+
+.page-feedback-years {
+    position: absolute;
+    top: 18px;
+    right: 8px;
+    display: inline-flex;
+    padding: 0px 6px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 2px;
+    background: #08006A;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145.187%; /* 17.422px */
+} /* Год */
+
+.page-25-header-card {
+    margin: 12px 0 0 12px;
+    color: #202020;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145.187%; /* 29.037px */
+} /* Заголовок карточки */
+
+.page-25-description {
+    margin: 4px 0 0 12px;
+    color: #464646;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145.187%; /* 23.23px */
+} /* Описание карточки */
+
+.page-25-price-box {
+    margin: 24px 0 0 12px;
+    display: flex;
+    align-items: baseline;
+} /* Бокс с ценой */
+
+.page-25-price {
+    color: #08006A;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145.187%; /* 34.845px */
+} /* Цена */
+
+.page-25-day {
+    margin-left: 4px;
+    color: #464646;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145.187%; /* 20.326px */
+} /* Продолжительность услуги */
+
+/* Page 26 */
+
+.page-26-box {
+    display: flex;
+    flex-direction: column;
+} /* Контейнер */
+
+.page-26-feader {
+    color: #1E1E1E;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.5%; /* 28.44px */
+} /* Заголовок секции */
+
+.page-26-cards {
+    width: 1240px;
+    margin-top: 32px;
+    display: flex;
+    overflow: hidden;
+} /*Контейнер для карточек */
+
+.page-26-card {
+    position: relative;
+    margin: 0 10px;
+    width: 327px;
+    height: 266px;
+    border-radius: 5px;
+    border: 0.5px solid #CDCDCD;
+    background: #FFF;
+} /* Карточка */
+
+.page-26-card:first-child {
+    margin: 0 10px 0 0;
+} /* Первая карточка */
+
+.page-26-feedback-boxs {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 16px;
+    left: 16px;
+} /* Боксы отзывов */
+
+.page-26-feedback-box {
+    display: flex;
+    width: 50px;
+    height: 28px;
+    padding: 4px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 1px 12px -2px rgba(86, 86, 86, 0.25);
+} /* Бокс отзыв */
+
+.page-26-date {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+    color: #464646;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.688%; /* 21.236px */
+} /* Дата */
+
+.page-26-text {
+    margin: 0 16px;
+    width: 295px;
+    padding-top: 68px;
+    color: #202020;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.688%; /* 21.236px */
+} /* Текст карточки */
+
+.page-26-hero-box {
+    margin: 40px 16px 0;
+    display: flex;
+    align-items: center;
+    color: #202020;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.688%; /* 21.236px */
+} /* Бокс собственника */
+
+.page-26-image {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #D9D9D9;
+} /* Аватар */
+
+.page-26-hero {
+    margin-left: 8px;
+} /* Имя и машина */
+
+.page26 {
+    width: 36px;
+    height: 6px;
+    flex-shrink: 0;
+    fill: none;
+    margin: 20px auto 0;
+} /* svg */
+
+/* Page 27 */
+
+.page-27-box {
+    display: flex;
+} /* Контейнер */
+
+.page-27-cards {
+    padding-top: 88px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} /* Бокс карточек */
+
+.page-27-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} /* Карточка */
+
+.page-27-icon-box {
+    width: 652px;
+    height: 652px;
+    flex-shrink: 0;
+} /* Картинка бокс */
+
+.page-27-image {
+    margin: 28px 0 12px;
+    display: flex;
+    width: 86px;
+    height: 86px;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 72px;
+    background: #08006A;
+} /* Иконка */
+
+.page-27-name {
+    color: #202020;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145.187%; /* 29.037px */
+    width: 295px;
+} /* Текст карточки */
+
+/* Page 28 */
+
+.page-28-box {
+    padding: 35px 0 46px;
+    display: flex;
+} /* Контейнер */
+
+.page-28-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 0 10px;
+} /* Карточка */
+
+.page-28-service {
+    width: 292px;
+    margin-bottom: 24px;
+    color: #08006A;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 145.187%; /* 69.69px */
+    border-radius: 21px;
+    border: 1px solid #08006A;
+    display: inline-flex;
+    padding: 19px 26px 19px 27px;
+    justify-content: center;
+    align-items: center;
+} /* Услуга */
+
+.page-28-service-description {
+    color: #202020;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145.187%; /* 29.037px */
+} /* Описание */
+
+/* Page 29 */
+
+.page-29-box {
+    display: flex;
+    flex-direction: column;
+    padding: 17px 0 27px;
+} /* Контейнер */
+
+.page-29-name {
+    margin: 16px 10px 12px;
+    width: 295px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 145.187%; /* 29.037px */
+} /* Имя карточки */
+
+.page-29-text {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 145.187%; /* 26.134px */
+    width: 295px;
+} /* Текст карточки */
+
+.page-29-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} /* Карточка */
+
+.page-29-image {
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+} /* Иконка */
+
+.page-29-image-arrow {
+    margin: 0 52px;
+    width: 81px;
+    height: 22px;
+    flex-shrink: 0;
+    fill: #08006A;
+    stroke-width: 3px;
+    stroke: #08006A;
+} /* Стрелка */
+
+.page-29-box-images {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+} /* Блок с иконками */
+
+.page-29-box-description {
+    display: flex;
+} /* Блок с текстом */
+
+/* Page 30 */
+
+.page-30-box-header {
+    display: flex;
+    justify-content: space-between;
+} /* Контейнер заголовка */
+
+.page-30-header {
+    padding-top: 39px;
+    margin-left: 10px;
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} /* Заголовок */
+
+.page-30-link-box-header {
+    display: flex;
+    align-items: center;
+    padding-top: 58px;
+} /* Контейнер ссылки заголовка */
+
+.page-30-header-link {
+    padding-right: 8px;
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} /* Ссылка заголовка */
+
+.page-30-card-link-header {
+    display: flex;
+    text-decoration: none;
+} /* Ссылка шапки */
+
+.page-30-box-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0 71px;
+} /* Контейнер с карточками */
+
+.page-30-card {
+    display: flex;
+    width: 190px;
+    height: 190px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin: 10px;
+} /* Контейнер карточки */
+
+.page-30-link {
+    position: relative;
+    display: flex;
+    justify-content: center;
+} /* Ссылка карточки */
+
+.page-30-services-name {
+    position: absolute;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    bottom: 16px;
+} /* Имя карточки */
+
+/* Page 31 */
+
+.page-31-box-header {
+    display: flex;
+    justify-content: space-between;
+} /* Контейнер заголовка */
+
+.page-31-header {
+    padding-top: 59px;
+    margin-left: 10px;
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} /* Заголовок */
+
+.page-31-link-box-header {
+    display: flex;
+    align-items: center;
+    padding-top: 78px;
+} /* Контейнер ссылки заголовка */
+
+.page-31-header-link {
+    padding-right: 8px;
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} /* Ссылка заголовка */
+
+.page-31-box-cards {
+    display: flex;
+    padding: 30px 0 47px;
+} /* Контейнер с карточками */
+
+.page-31-card {
+    display: flex;
+    position: relative;
+    width: 295px;
+    height: 408px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #FFF;
+    margin: 10px;
+} /* Контейнер карточки */
+
+.page-31-services {
+    z-index: 1;
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 131px;
+    height: 45px;
+} /* Контейнер с описанием услуг */
+
+.page-31-services-name {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} /* Имя карточки */
+
+.page-31-services-text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} /* Контент карточки */
+
+.page-31-card-link {
+    position: absolute;
+    right: 16px;
+    bottom: 22px;
+} /* Ссылка карточки */
+
+.page-31-card-link-header {
+    display: flex;
+    text-decoration: none;
+} /* Ссылка шапки */
+
+/* Page 32 */
+
+.red {
+    min-width: 1260px;
+    background-color: #FE634E;
+    width: 100%;
+} /* Секция */
+
+.page-32-box {
+    margin: 0 auto;
+    width: 1260px;
+} /* Контент */
+
+.page-32-header {
+    text-align: center;
+    padding-top: 100px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} /* Заголовок */
+
+.page-32-text {
+    text-align: center;
+    padding-top: 16px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} /* Текст */
+
+.page-32-cards {
+    padding: 80px 0 41px;
+    display: flex;
+    justify-content: center;
+} /* Контейнер карточки */
+
+.page-32-card {
+    width: 400px;
+    margin: 0 10px;
+    display: inline-flex;
+    padding: 35px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 3px;
+    border: 3px solid #FFF;
+} /* Карточка */
+
+.page-32-card-header {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} /* Заголовок карточки */
+
+.page-32-card-text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} /* Текст карточки */
+
+.svg_icon-32 {
+    width: 72px;
+    height: 72px;
+    fill: none;
+} /* svg иконки */
+
+/* Page 33 */
+
+.page-33-box-header {
+    display: flex;
+    justify-content: space-between;
+} /* Контейнер заголовка */
+
+.page-33-header {
+    padding-top: 68px;
+    margin-left: 10px;
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} /* Заголовок */
+
+.page33 {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    fill: none;
+} /* svg */
+
+.page-33-link-box-header {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    padding-top: 87px;
+} /* Контейнер ссылки заголовка */
+
+.page-33-header-link {
+    padding-right: 8px;
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} /* Ссылка заголовка */
+
+.page-33-box-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0 61px;
+} /* Контейнер с карточками */
+
+.page-33-card {
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    height: 277px;
+    flex-shrink: 0;
+    margin: 10px;
+} /* Контейнер карточки */
+
+.page-33-box-header-card {
+    position: relative;
+    width: 295px;
+    height: 185px;
+} /* Контейнер заголовка карточки */
+
+.page-33-image {
+    width: 295px;
+    height: 185px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: url(<path-to-image>), lightgray 0px -87.227px / 100% 162.72% no-repeat;
+} /* Фото */
+
+.page-33-sticker {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+    display: inline-flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 3px;
+    background: #FE634E;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} /* Стикер */
+
+.page33-heart {
+    position: absolute;
+    top: 17px;
+    right: 16px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill: none;
+} /* svg сердце */
+
+.page-33-box-feedback {
+    position: absolute;
+    top: 132px;
+    left: 16px;
+    display: flex;
+    flex-direction: column;
+} /* Контейнер отзыва */
+
+.page-33-header-feedback {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} /* Заголовок отзыва */
+
+.page-33-box-estimation {
+    display: flex;
+} /* Контейнер оценки */
+
+.page33-star {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    fill: #FFF;
+} /* svg звезда */
+
+.page-33-estimation {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} /* Оценка */
+
+.page33-link {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    fill: none;
+} /* svg ссылка карточки */
+
+.page-33-card-link {
+    position: absolute;
+    right: 16px;
+    top: 135px;
+} /* Ссылка карточки */
+
+.page33-description {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    fill: none;
+} /* svg контент */
+
+
+.page-33-map-box {
+    padding-top: 12px;
+} /* ряд адрес */
+
+.page-33-map-text {
+    padding-left: 8px;
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} /* текст адрес */
+
+.page-33-services {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+} /* Контейнер с услугами */
+
+.page-33-services-text {
+    padding-left: 8px;
+    color: #232323;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} /* Текст услуг */
+
+.page-33-price {
+    padding-top: 16px;
+    color: #FE634E;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} /* Цена услуги */
+
+.page-33-card-link-header {
+    display: flex;
+    text-decoration: none;
+} /* Ссылка шапки */
+    
+/* header */
+
+.header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 10px;
+    width: 1260px;
+    margin: 0 auto;
+} /* Бокс шапка */
+
+.header-name {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} /* Имя шапки */
+
+/* footer */
+
+footer, header {
+    min-width: 1260px;
+    background: rgba(155, 21, 101, 0.44);
+    width: 100%;
+} /* Подвал */
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px;
+    width: 1260px;
+    margin: 0 auto;
+} /* Бокс подвал */
+
+.signature-box {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 32px;
+} /* Бокс автора */
+
+.signature {
+    margin: auto;
+    display: flex;
+    width: 100px;
+} /* Ссылка на резюме */
+
+.signature:hover {
+    width: 104px;
+} /* Ссылка на резюме при наведении */
+
+.footer-git-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 32px;
+    background: linear-gradient(-45deg, rgba(0,0,0,0.3), rgba(255,255,255,0.1) 50%);
+    margin-right: 30px;
+    border-radius: 10% 50%;
+} /* Контейнер ссылки на код */
+
+.footer-git-text {
+    padding-left: 30px;
+    width: 130px;
+    margin: auto;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} /* Текст ссылки на код */
+
+.footer-git-link {
+    padding-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+} /* Ссылка на код */
+
+.footer-git-link:hover {
+    font-size: 18px;
+    font-weight: 600;
+} /* Ссылка на код при наведении */
+
+.left-box {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
